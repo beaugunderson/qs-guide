@@ -1,0 +1,14 @@
+{% load account %}
+{% load socialaccount %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% block head_title %}{% endblock %}</title>
+
+    {% providers_media_js %}
+  </head>
+
+  <body>
+  {% block content %}{% endblock %}
+  </body>
+</html>

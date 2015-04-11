@@ -1,0 +1,14 @@
+# flake8_quotes is way out of date
+git+https://github.com/2m/flake8-quotes.git@b14b456fffc7a592bfc51d42fe6f2f228aed3230#egg=flake8_quotes
+
+boto==2.38.0
+Django==1.8
+django-allauth==0.19.1
+django-storages==1.1.8
+flake8==2.4.0
+pep257==0.5.0
+pep8<=1.6
+pep8-naming==0.2.2
+Pillow==2.8.1
+pylint==1.4.3
+python-social-auth==0.2.3
